@@ -39,7 +39,7 @@ class Act:
         print(f"Приветствуем вас на акте №{self.number}!\nВсего будет {self.questions_count} вопросов!")
 
         is_ready = int(input("1-готов;0-не готов > "))
-        while is_ready != 0 or is_ready != 1:
+        while is_ready != 0 and is_ready != 1:
             is_ready = int(input("1-готов;0-не готов > "))
 
         if is_ready:
